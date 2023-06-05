@@ -72,7 +72,7 @@ func main() {
 	}
 }
 
-func playTurn(currentPlayer, otherPlayer *Player, deck *Deck) {
+func playTurn(currentPlayer *Player, otherPlayer *Player, deck *Deck) {
 	fmt.Printf("%s's turn\n", currentPlayer.name)
 	fmt.Printf("Your hand: %v\n", currentPlayer.hand)
 
